@@ -1,0 +1,157 @@
+/* Google Fonts linkit lisätään HTML:n <head> osaan:
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+*/
+
+:root {
+    --border-color: #5a3a1a;          /* tummanruskea reunat */
+    --primary-color: #e67300cc;       /* lämmin oranssi/kupari */
+    --primary-color-solid: #e67300;   /* oranssi ilman läpinäkyvyyttä */
+    --text-color: #f0e6d2;            /* vaalea hiekan sävy */
+    --background-color: #1f1f1f;      /* tummanharmaa */
+    --header-color: #ff8c00;          /* kirkkaampi oranssi otsikoihin */
+    --button-hover-color: #ffb84d;    /* vaaleampi oranssi hover-tilaan */
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 20px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--header-color);
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    text-shadow: 1px 1px 3px #663300cc;
+}
+
+header .subtitle {
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 1.8em;
+    color: var(--primary-color-solid);
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px #552200cc;
+}
+
+#timeline-table {
+    display: grid;
+    grid-template-columns: 150px repeat(145, 40px);
+    grid-auto-rows: 50px;
+    max-height: 500px;
+    overflow: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: var(--text-color);
+    padding-bottom: 20px;
+    box-sizing: content-box;
+}
+
+.header-cell.klo {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: #3a2a1a;
+    border-right: 1px solid var(--border-color);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--header-color);
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.08em;
+}
+
+.header-cell {
+    position: sticky;
+    top: 0;
+    background: #3a2a1a;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 5;
+    color: var(--primary-color-solid);
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.08em;
+}
+
+.label-cell {
+    position: sticky;
+    left: 0;
+    background: #3a2a1a;
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-weight: 700;
+    z-index: 5;
+    color: var(--text-color);
+    padding-right: 20px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.0em;
+}
+
+.performance-cell {
+    border: 1px dashed rgba(230, 115, 0, 0.3);
+    position: relative;
+    overflow: visible;
+    margin-bottom: 10px;
+    background-color: #3c2a0f1a; /* himmeä oranssi tausta */
+    border-radius: 4px;
+}
+
+.performance-box {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 2px 8px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 0 3px 6px rgba(102, 51, 0, 0.7);
+    z-index: 10;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.tab-button {
+    padding: 8px 14px;
+    margin: 4px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: #3a2a1a;
+    color: var(--text-color);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: var(--button-hover-color);
+    color: #2a1a00;
+}
+
+.tab-button.active {
+    background-color: var(--primary-color-solid);
+    color: #fff;
+    border-color: var(--primary-color-solid);
+}
