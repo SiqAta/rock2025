@@ -238,7 +238,7 @@ const kuopioRockData = [
       },
       {
         "artisti": "Haloo Helsinki!",
-        "lava": "Kuopio250 Stage)",
+        "lava": "Kuopio250 Stage",
         "aika_alku": "22:15",
         "aika_loppu": "23:45"  // 1.5 tuntia viimeinen lava 1 esiintyjä
       },
