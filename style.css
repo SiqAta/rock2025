@@ -42,9 +42,7 @@ header .subtitle {
     grid-template-columns: 150px repeat(145, 40px);
     grid-auto-rows: 50px;
     max-height: 500px;
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow: auto;
     border: 1px solid var(--border-color);
     border-radius: 5px;
     background-color: #2a2a2a;
@@ -59,7 +57,7 @@ header .subtitle {
     left: 0;
     background: #3a2a1a;
     border-right: 1px solid var(--border-color);
-    z-index: 15;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +78,7 @@ header .subtitle {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    z-index: 15;
+    z-index: 5;
     color: var(--primary-color-solid);
     font-family: 'Bebas Neue', cursive, sans-serif;
     font-size: 1em;
@@ -96,7 +94,7 @@ header .subtitle {
     align-items: center;
     padding-left: 10px;
     font-weight: 700;
-    z-index: 10;
+    z-index: 5;
     color: var(--text-color);
     padding-right: 20px;
     font-family: 'Roboto', Arial, sans-serif;
@@ -107,7 +105,7 @@ header .subtitle {
     border: 1px dashed rgba(230, 115, 0, 0.3);
     position: relative;
     overflow: visible;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     background-color: #3c2a0f1a; /* himmeä oranssi tausta */
     border-radius: 4px;
 }

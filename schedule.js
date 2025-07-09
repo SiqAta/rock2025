@@ -80,7 +80,7 @@ const kuopioRockData = [
         "artisti": "Woundstripe",
         "lava": "Väinö Stage",
         "aika_alku": "19:00",
-        "aika_loppu": "19.45"
+        "aika_loppu": "19:45"
       },
       {
         "artisti": "SKYB – ysäriltä ja takaisin",
@@ -142,8 +142,8 @@ const kuopioRockData = [
       {
         "artisti": "Turmion Kätilöt feat. Kuopion Kaupunginorkesteri",
         "lava": "Kuopio250 Stage",
-        "aika_alku": "22:45",
-        "aika_loppu": "00:15"  // 1.5 tuntia, viimeinen lava 1 esiintyjä
+        "aika_alku": "23:45",
+        "aika_loppu": "01:15"  // 1.5 tuntia, viimeinen lava 1 esiintyjä
       },
 
       // Matkus Stage (Stadion lava II)
