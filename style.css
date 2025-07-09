@@ -57,7 +57,7 @@ header .subtitle {
     left: 0;
     background: #3a2a1a;
     border-right: 1px solid var(--border-color);
-    z-index: 15;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ header .subtitle {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    z-index: 10;
+    z-index: 15;
     color: var(--primary-color-solid);
     font-family: 'Bebas Neue', cursive, sans-serif;
     font-size: 1em;
