@@ -53,14 +53,14 @@ const kuopioRockData = [
       {
         "artisti": "Kaikkeus",
         "lava": "Savonia Stage",
-        "aika_alku": "17:55",
-        "aika_loppu": "18:55"
+        "aika_alku": "18:55",
+        "aika_loppu": "19:55"
       },
       {
         "artisti": "Aston Kalmari",
         "lava": "Savonia Stage",
-        "aika_alku": "19:00",
-        "aika_loppu": "20:00"
+        "aika_alku": "21:00",
+        "aika_loppu": "22:00"
       },
 
       // Väinö Stage
@@ -71,21 +71,21 @@ const kuopioRockData = [
         "aika_loppu": "17:30"
       },
       {
-        "artisti": "SKYB – ysäriltä ja takaisin",
+        "artisti": "Southerm Cross",
         "lava": "Väinö Stage",
         "aika_alku": "17:45",
         "aika_loppu": "18:45"
       },
       {
-        "artisti": "Southern Cross",
-        "lava": "Väinö Stage",
-        "aika_alku": "19:00",
-        "aika_loppu": "20:00"
-      },
-      {
         "artisti": "Woundstripe",
         "lava": "Väinö Stage",
-        "aika_alku": "20:15",
+        "aika_alku": "19:00",
+        "aika_loppu": "19.45"
+      },
+      {
+        "artisti": "SKYB – ysäriltä ja takaisin",
+        "lava": "Väinö Stage",
+        "aika_alku": "20:00",
         "aika_loppu": "21:15"
       }
     ]
@@ -111,12 +111,12 @@ const kuopioRockData = [
         "artisti": "Violet Garden",
         "lava": "Väinö Stage",
         "aika_alku": "18:30",
-        "aika_loppu": "19:30"
+        "aika_loppu": "19:15"
       },
       {
         "artisti": "SKYB – ysäriltä ja takaisin",
         "lava": "Väinö Stage",
-        "aika_alku": "19:45",
+        "aika_alku": "19:30",
         "aika_loppu": "20:45"
       },
 
@@ -193,30 +193,30 @@ const kuopioRockData = [
     "esiintymiset": [
       // Väinö Stage
       {
-        "artisti": "SPIT (JKL Rock Academy)",
+        "artisti": "Destiny Inveiled",
         "lava": "Väinö Stage",
-        "aika_alku": "15:00",
-        "aika_loppu": "16:00"
+        "aika_alku": "14:30",
+        "aika_loppu": "15:30"
       },
       {
-        "artisti": "Licuation",
+        "artisti": "SPIT",
         "lava": "Väinö Stage",
         "aika_alku": "16:15",
         "aika_loppu": "17:15"
       },
       {
-        "artisti": "SKYB – ysäriltä ja takaisin",
+        "artisti": "Licuation",
         "lava": "Väinö Stage",
-        "aika_alku": "17:30",
-        "aika_loppu": "18:30"
+        "aika_alku": "18:15",
+        "aika_loppu": "19:15"
       },
       {
-        "artisti": "Destiny Inveiled",
+        "artisti": "SKYB – ysäriltä ja takaisin",
         "lava": "Väinö Stage",
-        "aika_alku": "18:45",
-        "aika_loppu": "19:45"
+        "aika_alku": "19:30",
+        "aika_loppu": "20:30"
       },
-
+    
       // Kuopio250 Stage (Stadion lava 1)
       {
         "artisti": "Demolition 23",
@@ -239,8 +239,8 @@ const kuopioRockData = [
       {
         "artisti": "Haloo Helsinki!",
         "lava": "Kuopio250 Stage",
-        "aika_alku": "22:15",
-        "aika_loppu": "23:45"  // 1.5 tuntia viimeinen lava 1 esiintyjä
+        "aika_alku": "23:45",
+        "aika_loppu": "01:15"  // 1.5 tuntia viimeinen lava 1 esiintyjä
       },
 
       // Matkus Stage (Stadion lava II)
