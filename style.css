@@ -78,7 +78,7 @@ header .subtitle {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    z-index: 5;
+    z-index: 10;
     color: var(--primary-color-solid);
     font-family: 'Bebas Neue', cursive, sans-serif;
     font-size: 1em;
@@ -120,7 +120,7 @@ header .subtitle {
     border-radius: 5px;
     font-size: 1.5em;
     box-shadow: 0 3px 6px rgba(102, 51, 0, 0.7);
-    z-index: 1;
+    z-index: 5;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
